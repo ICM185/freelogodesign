@@ -1,0 +1,145 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10%;
+    transition: 0.6s;
+    position: sticky;
+    background: linear-gradient(30deg, rgb(160, 29, 236), rgb(222, 62, 236));
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin: 0px 20px;
+     }
+
+
+  .logo {
+    cursor:pointer;
+  }
+  .logo img {
+    width: 70px;
+  }
+  
+  
+  .cta {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: rgb(62, 159, 172);
+    text-decoration: none;
+  }
+  .cta {
+    color: rgb(11, 11, 27);
+  }
+
+  .cta {
+    padding: 9px 25px;
+    background-color: gold;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition:color 0.5s ease 0s;
+  }
+  
+  .cta:hover {
+    background-color: rgb(243, 220, 10);
+    box-shadow: rgb(10, 22, 26);
+    color: magenta;
+  }
+  
+  /* Mobile Nav */
+  
+  .menu {
+    display: none;
+  }
+  
+
+
+.bes {
+   width: 99%;
+   height: 100vh;
+   position: relative;
+   padding: 0 5%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.content {
+      text-align: center;
+      font-size: 40px;
+      color: #fff;
+      font-weight: 1000;
+      font-family: "ZCOOL QingKe HuangYou", sans;
+      animation-name: apple;
+      animation-duration: 3s;
+      animation-iteration-count: infinite;
+  }
+  
+      @keyframes apple {
+      0% {color: cyan;}
+      25% {color: rgb(251, 253, 218);}
+      50% {color: rgb(9, 5, 12);}
+      100% {color: rgb(250, 220, 157);}
+  }
+  
+.content h1:hover {
+  -webkit-text-stroke: 0.5px #fff;
+  color: transparent;
+}  
+  .content a {
+      text-decoration: none;
+      border: 2px solid magenta;
+      color: lightblue;
+      font-size: 24px;
+      display: inline-block;
+      padding:14px 70px ;
+      border-radius: 50px;
+      margin: 20px;
+      transition: ease 0.5s;
+  }
+  
+  .content a:hover{
+    border: 5px solid rgb(0, 0, 0);
+    color: magenta;
+  }
+
+.wwh {
+  font-family: "Lobster";
+  text-align: center;
+  font-size: 50px;
+  color: aqua;
+  
+  
+}
+.nthn {
+  background: rgba(255, 255, 255, 0.021);
+}
+#footer{
+  background-color: rgb(27, 54, 61);
+  color:rgb(93, 107, 228);
+  position: relative;
+  height: 70px;
+  margin-top: 10px;
+  clear: both;
+  text-align: center;
+  padding: 25px;
+  font-family: "poppins", sans ;
+}
+.hicm{
+  text-decoration: none;
+  color: rgb(93, 151, 228) ;
+  transition: ease 0.5s;
+}
+.hicm:hover {
+  color: lightcyan;
+  
+}
+#preloader{
+  background: rgb(246, 244, 246) url(images/guh.gif) no-repeat center center;
+    height: 100vh ;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+iframe{
+  display: none;
+}
